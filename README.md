@@ -105,7 +105,7 @@ We will build our models using a pipeline and utilise GridSearchCV to determine 
 
 ### Model evaluation
 
-![My model results](./images/model_results.png)
+![My model results](images/model_results.png)
 
 **Precision**
 
@@ -129,7 +129,7 @@ The Naive Bayes model with the CountVectorizer overlay has the best F1 score her
 
 Our best model appears to be a Naive Bayes + Count Vectorizer mix. We are optimising for our F1 score.
 
-![My top predictors](./images/top_predictors.png)
+![My top predictors](images/top_predictors.png)
 
 There are considerable overlaps in the top predictor words for r/yoga and r/meditation classifications. However, certain words stand out for r/yoga (i.e. pose, mat, class, week, teacher, studio, video).
 
